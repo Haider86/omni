@@ -1,0 +1,673 @@
+/*
+     #e67e22
+*/
+
+
+
+/*----------------------------------------------------*/
+/* BASIC SETUP*/
+/*----------------------------------------------------*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato' , 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.clearfix{zoom:1}
+.clearfix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*----------------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*----------------------------------------------------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    padding:80px 0;
+}
+
+.box{
+    padding: 1%;
+}
+
+
+a:active,
+a:link{
+    text-decoration: none;
+    color: #e67e22;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 5px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:visited{
+    
+    color: #555;
+    border-bottom: 1px solid transparent;
+    
+    
+}
+
+
+
+/*----------------------------------------------------*/
+/* HEADERS */
+/*----------------------------------------------------*/
+
+
+h1 ,
+h2,
+h3{
+ 
+    
+    font-weight:300;
+    text-transform: uppercase;
+    font-style: normal;
+    
+   
+ 
+    
+}
+
+h1{
+    margin-top: 0; 
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+    
+}
+
+h2:after {
+   display: block;
+    height: 5px;
+    background-color:#e67e22;
+    padding: 0 20px;
+    content:"  ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+/*----------------------------------------------------*/
+/* PARAGRAOHES */
+/*----------------------------------------------------*/
+
+.long-copy{
+    line-height: 145%;
+    width: 70;
+    margin-left: 15%;
+    
+    
+}
+.box h3{
+    padding-top:15px;
+}
+.box p{
+    font-size: 90%;
+    line-height: 140%;
+    padding-top: 10px;
+}
+
+span{
+    display: block;
+    font-style: italic;
+    color: aliceblue;
+    margin-top: 250px;
+}
+
+
+
+
+/*----------------------------------------------------*/
+/* BUTTONS */
+/*----------------------------------------------------*/
+.btn:link, 
+.btn:visited,
+.sub{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 200px;
+    border: 1px solid #e67e22;
+    transition: background-color 0.2s, color 0.2s;
+    
+}
+
+
+
+.btn-full:link,
+.btn-full:visited,
+.sub{
+    background-color: #e67e22;
+    margin-right: 15px;
+    
+}
+
+
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    
+    color: #e67e22;
+    
+}
+
+.btn-full:hover,
+.btn-full:active,
+.sub:hover{
+    background-color: #cf6d17;
+    color: #fff;
+    border: 1px solid #cf6d17;
+    
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: #cf6d17;
+    color: #fff;
+    border: 1px solid #cf6d17;
+    
+}
+
+/*----------------------------------------------------*/
+/* HEADER */
+/*----------------------------------------------------*/
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment:fixed;
+    
+}
+
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+/*----------------------------------------------------*/
+/* MAIN NAVBAR */
+/*----------------------------------------------------*/
+
+
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    
+}
+.main-nav{
+   
+    float: right;
+    list-style: none;
+    /*margin-right: 50px;*/
+    margin-top: 50px;
+}
+
+.main-nav li {
+    
+    display: inline-block;
+    margin-left: 40px;  
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+    
+    
+} 
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+    transition: border-bottom 0.2s;
+}
+
+
+/*--------------ICONS----------------*/
+
+
+
+ion-icon{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    font-weight: ;
+}
+
+
+
+
+/*--------------imges meals----------------*/
+
+
+.section-meals{
+    padding: 0;
+    background-attachment: fixed;
+}
+
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+    transition: transform 0.7s;
+    
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    
+   
+}
+
+.meal-photo img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.7s, opacity 0.7s;
+    opacity: 0.7;
+     
+        
+}
+
+
+
+.meals-showcase img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+    
+}
+
+
+
+
+/*--------------SECTION FEATURES----------------*/
+
+
+.section-features .long-copy{
+    margin-bottom: 30px;
+}
+
+
+
+/*--------------HOW IT IS WORK----------------*/
+
+.section-steps{
+    background-color: #f4f4f4;
+}
+
+
+
+.steps-box{
+    
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen{
+    width: 40%;
+}
+
+.work-step{
+    margin-bottom: 50px;
+}
+
+.work-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+.work-step div{
+    color:#e67e22;
+    display: inline-block;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    float: left;
+    margin-right: 25px;
+
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border: none;
+}
+
+.btn-app img{
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+
+
+
+
+
+
+/*--------------CITYS----------------*/
+
+
+.box img{
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+
+
+
+/*ICON*/
+
+.small-icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 120%;
+    text-align: center;
+    
+    margin-right: 10px;
+    
+    /*---importent!!!!----secrets to align text icons---*/
+    
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    
+}
+
+.city-feature{
+    padding-bottom: 10px;
+}
+
+
+
+/*----------------------------------------------------*/
+/* SECTION CUSTOMERS*/
+/*----------------------------------------------------*/
+
+
+
+.section-customers{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) ,rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    background-attachment: fixed;
+    color: #fff;
+}
+
+blockquote{
+    font-style: italic;
+    padding: 2%;
+    line-height: 130%;
+    display: block;
+    
+    word-spacing: 1.5px;
+    position: relative;
+    margin-top: 40px;
+    
+}
+
+cite{
+    font-size: 80%;
+    margin-top: 25px;
+    display: block;
+}
+
+blockquote::before{
+    content: "\201c";
+    margin-right: 15px;
+    display: block;
+    font-size: 500%;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+
+/*----------------------------------------------------*/
+/* SIGN UP SECTION*/
+/*----------------------------------------------------*/
+
+.section-plans{
+    background-color: #f4f4f4;
+}
+
+.plan-box{
+    background-color: #fff;
+    display: inline;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    float: left;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.12);
+    margin-right: 55px;
+    
+}
+.plan-box div{
+    padding: 5px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+.list ul{
+    list-style: none;
+    margin: 15px;
+    display: inline-grid;
+    line-height: 35px;
+    text-align: left;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 15px;
+    font-weight: 100;
+        
+}
+.list ul li{
+   font-weight: 400; 
+}
+
+.plan-price{
+    color: #000;
+    margin: 0;
+    font-size: 150%;
+    
+}
+
+.price-meal{
+   
+    padding-bottom: 15px; 
+}
+span{
+    color: #e67e22;
+    margin: 0;
+    float: right;
+    margin-left: -10px;
+    margin-right: 35px
+    
+}  
+
+
+/*----------------------------------------------------*/
+/* CONTACT SECTION*/
+/*----------------------------------------------------*/
+
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+
+
+textarea{
+    height: 100px;
+    
+}
+
+
+
+
+
+/*------footer--------*/
+
+
+
+footer{
+    background-color: rgba(47, 47, 47, 0.78);
+    padding-bottom: 18px;
+    background-attachment: fixed;
+    
+}
+
+.footer-nav,
+{
+    list-style: none;
+    float: left;
+    
+}
+
+.footer-nav li{
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    margin-top: 15px;
+   
+}
+
+.section-links li {
+    float: right;
+    font-size: 90%;
+    margin-left: 25px;
+    margin-top: 15px;
+    
+}
+
+.footer-nav li a{
+    font-size: 90%;
+    color: aliceblue;
+    text-decoration: none;
+    border-bottom: 0;
+    margin-left: 15px;
+    
+}
+
+
+.social{
+    color: aliceblue;
+    font-size: 180%;
+    border-bottom: 0;
+      
+}
+
+.social a{
+    margin-left: 15px;
+}
+
+.copy{
+    color: aliceblue;
+    text-align: center;
+    font-size: 80%;
+    margin-top: 50px;
+}
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+
+@media only screen and ( max-width: 1200px){
+    
+    
+    .hero-text-box{
+    width: 100%;
+    padding: 0 2%;
+    }
+    .row{padding: 0 2%;}
+}
+
+
+/*small tablet to big tablet: from 767 to 1023*/
+
+@media only screen and ( max-width: 1023px){
+    
+   
+    body{ font-size: 18px;}
+    section{padding: 60px 0;}
+    
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box{ margin-top: 10px;}
+    .steps-box:last-child{}
+    
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .contact-form{
+        width: 85%;
+    } 
+    body{
+        font-size: 70%;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 50%;
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+
+
+/* small phone to small tablets: from 480px to 767px;*/
+
+@media only screen and (max-width: 767px){
+    
+   .contact-form{
+        width: 100%;
+    } 
+    body{
+        font-size: 70%;
+    }
+    .main-nav li{
+        display: none;
+    }
+    .app-screen{
+        width: 70%;
+        margin-left: 10%
+        
+}
+    .plan-box{
+        width: 100%;
+        margin: 0 50%;
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+}
+
+
+/*small phone : from 0 to 480px */
+@media only screen and (max-width: 480px){
+   
+    .contact-form{
+        width: 100%;
+    } 
+    body{
+        font-size: 70%;
+    }
+    .app-screen{
+        width: 40%;
+        margin-right: 30%;
+        
+    
+    
+}
+
+
+
+
+
+
