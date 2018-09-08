@@ -70,6 +70,9 @@ a:visited{
     
 }
 
+ul li {
+    list-style: none;
+}
 
 
 /*----------------------------------------------------*/
@@ -518,48 +521,64 @@ cite img{
 
 .plan-box{
     background-color: #fff;
-    display: inline;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-    width: 300px;
-    height: auto;
-    float: left;
+    border-radius: 5px;
+    width: 90%;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.12);
-    margin-right: 55px;
+    margin-left: 5%;
+    transform: scale();
+    transition: transform 0.7s, opacity 0.7s;
+    opacity: 0.95;
+    margin-top: 50px;
+    
+}
+
+.plan-box:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    
     
 }
 .plan-box div{
-    padding: 5px;
+    padding: 15px;
     border-bottom: 1px solid #e8e8e8;
 }
+.plan-box div:first-child{
+    background-color:      #f0f0f0;
+;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 150px;
+    box-shadow: 3px 0px  #e2e2e2;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
 
 
-.list ul{
-    list-style: none;
-    margin: 15px;
-    display: inline-grid;
-    line-height: 35px;
-    text-align: left;
-    border-bottom: 1px solid transparent;
-    padding-bottom: 15px;
-    font-weight: 100;
-        
-}
-.list ul li{
-   font-weight: 400; 
-}
 
 .plan-price{
-    color: #000;
-    margin: 0;
-    font-size: 150%;
     
+    color: #e67e22;
+    margin-bottom: 10px;
+    font-size: 200%;
+    font-weight: 100;
+    
+}
+
+.plan-price span{
+    font-size: 100%;
+    font-weight: 300
 }
 
 .price-meal{
    
     padding-bottom: 15px; 
+}
+.list{
+    font-size: 100%;
+    
+        
 }
 span{
     color: #e67e22;
