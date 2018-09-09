@@ -67,12 +67,29 @@
         
 }
     .plan-box{
-        width: 100%;
-        margin: 0 50%;
-        display: block;
+        width: 85%;
+        margin-left:12%;
         margin-bottom: 15px;
+        margin-top: 50px;
+        padding: 20px;
+        
     }
+    .plan-box:hover{
+    transform: none;
     
+}
+    .plan-box div:first-child{
+   
+;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 70px;
+    }
+    .list ul li {
+    font-size: 95%;
+    
+    
+        
+}
 }
 
 

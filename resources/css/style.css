@@ -577,7 +577,8 @@ cite img{
 }
 .list ul li {
     font-size: 100%;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    text-align:left
     
         
 }
