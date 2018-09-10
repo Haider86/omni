@@ -26,10 +26,7 @@
     .steps-box{ margin-top: 10px;}
     .steps-box:last-child{}
     
-    .plan-box{
-        width: 100%;
-        margin-left: 0%;
-    }
+    
     .contact-form{
         width: 85%;
     } 
