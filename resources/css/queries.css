@@ -73,6 +73,7 @@
         margin-top: 50px;
         padding: 20px;
         
+        
     }
     .plan-box:hover{
     transform: none;
@@ -81,7 +82,7 @@
     .plan-box div:first-child{
    
 ;
-    border-top-left-radius: 1px;
+    border-top-left-radius: 10px;
     border-top-right-radius: 70px;
     }
     .list ul li {
@@ -105,6 +106,7 @@
     .app-screen{
         width: 40%;
         margin-right: 30%;
+        
         
     
     
