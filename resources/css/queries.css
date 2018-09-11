@@ -85,8 +85,11 @@
         margin: 0 0 4% 0;
     }
     
-    .plan-box{width: 80%;}
-    .plan-box span{margin-right: 30%}
+    .plan-box{width: 80%;
+        margin: -1% 12%
+    
+    }
+    .plan-box span{margin-right: 60%}
     .app-screen{width: 25%;}
     .btn-app{margin-left: 50px}
     .steps-box:first-child{
@@ -132,7 +135,10 @@
 
 */
 /*small phone : from 0 to 480px */
-@media only screen and (max-width: 480px){/*
+@media only screen and (max-width: 480px){
+    
+    
+    .plan-box span{margin-right: 40%}
    
     .contact-form{
         width: 100%;

@@ -595,7 +595,7 @@ cite img{
     border-bottom: 1px solid #e8e8e8;
 }
 .plan-box div:first-child{
-    background-color:      #f8f8f8;
+    background-color:      rgb(235, 235, 235);
     border-top-left-radius: px;
     border-top-right-radius: 5px;
    /* box-shadow: 3px 0px  #e2e2e2;*/
