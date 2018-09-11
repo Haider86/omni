@@ -256,6 +256,8 @@ header{
     width: auto;
     float: left;
     margin: 5px 0;}
+
+
 .main-nav{
    
     float: right;
@@ -444,7 +446,7 @@ ion-icon{
     text-align: center;
     padding: 5px;
     font-size: 150%;
-    float: left;
+    float:left;
     margin-right: 25px;
 
 }
@@ -565,10 +567,10 @@ cite img{
 .plan-box{
     background-color: #fff;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     -webkit-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.12);
             box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.12);
-    margin-left: 50%;
+    margin-left: 5%;
     transform: scale(1);
    transition: transform 0.7s, opacity 0.7s;
     opacity: 0.95;
@@ -583,7 +585,7 @@ cite img{
     opacity: 1;
 }
 .plan-box div{
-   margin-right: 10px;
+   
     padding: 15px;
     border-bottom: 1px solid #e8e8e8;
 }
@@ -613,7 +615,7 @@ cite img{
 
 .plan-price span{
     font-size: 40%;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 29px;
     color: #555;
     
@@ -736,7 +738,7 @@ footer{
 }
     
     
-}
+
 
 
 

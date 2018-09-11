@@ -1,18 +1,24 @@
-$(document).ready(function(){
-    
-    $('.js--section-features').waypoint(function(direction){
-        if (direction == "down"){
+$(document).ready(function () {
+
+    $('.js--section-features').waypoint(function (direction) {
+        if (direction == "down") {
             $('nav').addClass('sticky');
-        }else{
+        } else {
             $('nav').removeClass('sticky');
         }
     }, {
-  offset: '60px'
-});
+            offset: '60px'
+        });
     
     
     
-    
+    $('h1').click(function(){
+        $(this).css('color', 'ff0000');
+    });
+
+
+
+
 });
 
 
