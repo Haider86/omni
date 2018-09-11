@@ -12,14 +12,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 
 html{
     background-color: #fff;
     color: #555;
-    font-family: 'Lato' , 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -58,6 +59,7 @@ a:link{
     color: #e67e22;
     border-bottom: 1px solid #e67e22;
     padding-bottom: 5px;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -172,6 +174,7 @@ span{
     color: #fff;
     border-radius: 200px;
     border: 1px solid #e67e22;
+    -webkit-transition: background-color 0.2s, color 0.2s;
     transition: background-color 0.2s, color 0.2s;
     
 }
@@ -216,6 +219,7 @@ span{
 /*----------------------------------------------------*/
 
 header{
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))) , url(img/hero.jpg);
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(img/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -230,7 +234,8 @@ header{
     width: 1140px;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,-50%);
+    -webkit-transform: translate(-50% ,-50%);
+            transform: translate(-50% ,-50%);
 }
 
 /*----------------------------------------------------*/
@@ -277,6 +282,7 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -307,7 +313,10 @@ ion-icon{
 .meals-showcase {
     list-style: none;
     width: 100%;
+    -webkit-transition: -webkit-transform 0.7s;
+    transition: -webkit-transform 0.7s;
     transition: transform 0.7s;
+    transition: transform 0.7s, -webkit-transform 0.7s;
     
 }
 
@@ -330,8 +339,12 @@ ion-icon{
 .meal-photo img{
     width: 100%;
     height: auto;
-    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    -webkit-transition: opacity 0.7s, -webkit-transform 0.7s;
+    transition: opacity 0.7s, -webkit-transform 0.7s;
     transition: transform 0.7s, opacity 0.7s;
+    transition: transform 0.7s, opacity 0.7s, -webkit-transform 0.7s;
     opacity: 0.7;
      
         
@@ -340,7 +353,8 @@ ion-icon{
 
 
 .meals-showcase img:hover{
-    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
     opacity: 1;
     
 }
@@ -366,16 +380,17 @@ ion-icon{
 
 
 .steps-box{
-    
+    margin-bottom: 30px;
 }
 
 .steps-box:first-child{
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
+    
 }
 
 .steps-box:last-child{
+    text-align: left;
     padding-left: 3%;
     margin-top: 70px;
 }
@@ -397,8 +412,8 @@ ion-icon{
     display: inline-block;
     border: 2px solid #e67e22;
     border-radius: 50%;
-    height: 55px;
-    width: 55px;
+    height: 54px;
+    width: 54px;
     text-align: center;
     padding: 5px;
     font-size: 150%;
@@ -466,6 +481,7 @@ ion-icon{
 
 
 .section-customers{
+    background-image: -webkit-gradient(linear ,left top, left bottom ,from(rgba(0, 0, 0, 0.8)) ,to(rgba(0, 0, 0, 0.8))),url(img/back-customers.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8) ,rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
     background-size: cover;
     background-position: center;
@@ -522,37 +538,39 @@ cite img{
 .plan-box{
     background-color: #fff;
     border-radius: 5px;
-    width: 90%;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.12);
-    margin-left: 35%;
-    transform: scale();
-    transition: transform 0.7s, opacity 0.7s;
+    width: 100%;
+    -webkit-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.12);
+            box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.12);
+    margin-left: 50%;
+    transform: scale(1);
+   transition: transform 0.7s, opacity 0.7s;
     opacity: 0.95;
     margin-top: 10px;
+    
+     
     
 }
 
 .plan-box:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     opacity: 1;
-    
-    
 }
 .plan-box div{
+   margin-right: 10px;
     padding: 15px;
     border-bottom: 1px solid #e8e8e8;
 }
 .plan-box div:first-child{
     background-color:      #f0f0f0;
-;
-    border-top-left-radius: 1px;
-    border-top-right-radius: 150px;
-    box-shadow: 3px 0px  #e2e2e2;
+    border-top-left-radius: px;
+    border-top-right-radius: 5px;
+   /* box-shadow: 3px 0px  #e2e2e2;*/
 }
 
 .plan-box div:last-child{
     text-align: center;
     border: 0;
+    padding: 15px;
 }
 
 
@@ -561,22 +579,25 @@ cite img{
     
     color: #e67e22;
     margin-bottom: 10px;
-    font-size: 200%;
-    font-weight: 100;
+    font-size: 250%;
+    font-weight: 300;
     
 }
 
 .plan-price span{
-    font-size: 100%;
-    font-weight: 300
+    font-size: 40%;
+    font-weight: 400;
+    margin-top: 29px;
+    color: #555;
+    
 }
 
 .price-meal{
    
-    padding-bottom: 15px; 
+   font-size: 80%;
 }
 .list ul li {
-    font-size: 100%;
+    font-size: 90%;
     padding-bottom: 10px;
     text-align:left
     
@@ -685,6 +706,9 @@ footer{
     text-align: center;
     font-size: 80%;
     margin-top: 50px;
+}
+    
+    
 }
 
 
