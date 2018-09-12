@@ -621,8 +621,16 @@ footer{
     font-size: 80%;
     margin-top: 50px;
 }
+
+
+
+.js--ws-1{
+    opacity: 0;
+}
     
-    
+.js--ws-1 .animated{
+    opacity: 1;
+}
 
 
 

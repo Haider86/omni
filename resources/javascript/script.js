@@ -66,6 +66,16 @@ $('a[href*="#"]')
   });
     
     
+    // animation 
+    
+    
+    $('.js--ws-1').waypoint(function(direction){
+        $('.js--ws-1').addClass('animated fadeIn');
+    },{offset: '50%'
+      }
+     );
+    
+    
 
 
 
