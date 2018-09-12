@@ -103,6 +103,7 @@ h1{
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+   
 }
 
 h2{
@@ -728,7 +729,12 @@ footer{
     color: aliceblue;
     font-size: 180%;
     border-bottom: 0;
+    opacity: 0.5;
       
+}
+
+.social:hover{
+    opacity: 1;
 }
 
 .social a{
