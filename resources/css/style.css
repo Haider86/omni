@@ -15,18 +15,14 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-
-
 html{
     background-color: #fff;
     color: #555;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    text-rendering: optimizeLegibility;
-    
+    text-rendering: optimizeLegibility; 
 }
-
 .clearfix{zoom:1}
 .clearfix::after{
     content: '.';
@@ -85,15 +81,9 @@ ul li {
 h1 ,
 h2,
 h3{
- 
-    
     font-weight:300;
     text-transform: uppercase;
     font-style: normal;
-    
-   
- 
-    
 }
 
 h1{
@@ -103,24 +93,19 @@ h1{
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
-   
 }
-
 h2{
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
-    
 }
 
 h3{
     font-size: 110%;
     margin-bottom: 15px;
-    
 }
-
 h2:after {
    display: block;
     height: 5px;
@@ -130,12 +115,10 @@ h2:after {
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
-    
 }
 /*----------------------------------------------------*/
 /* PARAGRAOHES */
 /*----------------------------------------------------*/
-
 .long-copy{
     line-height: 145%;
     width: 70;
@@ -151,17 +134,12 @@ h2:after {
     line-height: 140%;
     padding-top: 10px;
 }
-
 span{
     display: block;
     font-style: italic;
     color: aliceblue;
     margin-top: 250px;
 }
-
-
-
-
 /*----------------------------------------------------*/
 /* BUTTONS */
 /*----------------------------------------------------*/
@@ -177,59 +155,42 @@ span{
     border: 1px solid #e67e22;
     -webkit-transition: background-color 0.2s, color 0.2s;
     transition: background-color 0.2s, color 0.2s;
-    
 }
-
-
-
 .btn-full:link,
 .btn-full:visited,
 .sub{
     background-color: #e67e22;
-    margin-right: 15px;
-    
+    margin-right: 15px;   
 }
-
-
-
 .btn-ghost:link,
 .btn-ghost:visited{
     
-    color: #e67e22;
-    
+    color: #e67e22;   
 }
-
 .btn-full:hover,
 .btn-full:active,
 .sub:hover{
     background-color: #cf6d17;
     color: #fff;
-    border: 1px solid #cf6d17;
-    
+    border: 1px solid #cf6d17;  
 }
 .btn-ghost:hover,
 .btn-ghost:active{
     background-color: #cf6d17;
     color: #fff;
-    border: 1px solid #cf6d17;
-    
+    border: 1px solid #cf6d17;  
 }
-
 /*----------------------------------------------------*/
 /* HEADER */
 /*----------------------------------------------------*/
-
 header{
     background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))) , url(img/hero.jpg);
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment:fixed;
-    
+    background-attachment:fixed; 
 }
-
-
 .hero-text-box{
     position: absolute;
     width: 1140px;
@@ -238,13 +199,9 @@ header{
     -webkit-transform: translate(-50% ,-50%);
             transform: translate(-50% ,-50%);
 }
-
 /*----------------------------------------------------*/
 /* MAIN NAVBAR */
 /*----------------------------------------------------*/
-
-
-
 .logo{
     height: 100px;
     width: auto;
@@ -285,16 +242,12 @@ header{
     
     
 } 
-
-
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
-
-
 /*sticky navi*/
 
 .sticky{
@@ -318,54 +271,36 @@ header{
 
 .sticky .main-nav{margin-top: 18px;}
 /*--------------ICONS----------------*/
-
-
-
 ion-icon{
     font-size: 350%;
     display: block;
     color: #e67e22;
     font-weight: ;
 }
-
-
-
-
 /*--------------imges meals----------------*/
-
-
 .section-meals{
     padding: 0;
     background-attachment: fixed;
 }
-
-
 .meals-showcase {
     list-style: none;
     width: 100%;
     -webkit-transition: -webkit-transform 0.7s;
     transition: -webkit-transform 0.7s;
     transition: transform 0.7s;
-    transition: transform 0.7s, -webkit-transform 0.7s;
-    
+    transition: transform 0.7s, -webkit-transform 0.7s; 
 }
-
 .meals-showcase li{
     display: block;
     float: left;
-    width: 25%;
-    
+    width: 25%; 
 }
-
 .meal-photo{
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
-    
-   
 }
-
 .meal-photo img{
     width: 100%;
     height: auto;
@@ -385,40 +320,23 @@ ion-icon{
 .meals-showcase img:hover{
     -webkit-transform: scale(1.03);
             transform: scale(1.03);
-    opacity: 1;
-    
+    opacity: 1; 
 }
-
-
-
-
 /*--------------SECTION FEATURES----------------*/
-
-
 .section-features .long-copy{
     margin-bottom: 30px;
 }
-
-
-
 /*--------------HOW IT IS WORK----------------*/
-
 .section-steps{
     background-color: #f4f4f4;
 }
-
-
-
 .steps-box{
     margin-bottom: 30px;
 }
-
 .steps-box:first-child{
     text-align: right;
-    padding-right: 3%;
-    
+    padding-right: 3%; 
 }
-
 .steps-box:last-child{
     text-align: left;
     padding-left: 3%;
@@ -463,25 +381,13 @@ ion-icon{
     margin-right: 10px;
     
 }
-
-
-
-
-
-
 /*--------------CITYS----------------*/
-
-
 .box img{
     width: 100%;
     margin-bottom: 25px;
     
 }
-
-
-
 /*ICON*/
-
 .small-icon{
     display: inline-block;
     width: 30px;
@@ -495,21 +401,13 @@ ion-icon{
     line-height: 120%;
     vertical-align: middle;
     margin-top: -5px;
-    
 }
-
 .city-feature{
     padding-bottom: 10px;
 }
-
-
-
 /*----------------------------------------------------*/
 /* SECTION CUSTOMERS*/
 /*----------------------------------------------------*/
-
-
-
 .section-customers{
     background-image: -webkit-gradient(linear ,left top, left bottom ,from(rgba(0, 0, 0, 0.8)) ,to(rgba(0, 0, 0, 0.8))),url(img/back-customers.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8) ,rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
@@ -519,7 +417,6 @@ ion-icon{
     background-attachment: fixed;
     color: #fff;
 }
-
 blockquote{
     font-style: italic;
     padding: 2%;
@@ -528,16 +425,13 @@ blockquote{
     
     word-spacing: 1.5px;
     position: relative;
-    margin-top: 40px;
-    
+    margin-top: 40px;  
 }
-
 cite{
     font-size: 80%;
     margin-top: 25px;
     display: block;
 }
-
 blockquote::before{
     content: "\201c";
     margin-right: 15px;
@@ -547,20 +441,15 @@ blockquote::before{
     top: -5px;
     left: -3px;
 }
-
 cite img{
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
 }
-
-
-
 /*----------------------------------------------------*/
 /* SIGN UP SECTION*/
 /*----------------------------------------------------*/
-
 .section-plans{
     background-color: #f4f4f4;
     
@@ -651,14 +540,10 @@ span{
 /*----------------------------------------------------*/
 /* CONTACT SECTION*/
 /*----------------------------------------------------*/
-
-
 .contact-form{
     width: 60%;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
-
 input[type="text"],
 input[type="email"],
 select,
@@ -669,22 +554,11 @@ textarea{
     border: 1px solid #ccc;
     
 }
-
-
-
 textarea{
     height: 100px;
     
 }
-
-
-
-
-
 /*------footer--------*/
-
-
-
 footer{
     background-color: rgba(47, 47, 47, 0.78);
     padding-bottom: 18px;
