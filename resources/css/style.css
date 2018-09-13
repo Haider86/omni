@@ -208,13 +208,16 @@ header{
     width: auto;
     float: left;
     margin-top: 15px;
+    cursor: pointer;
     
 }
 .logo-black{display: none;
     height: 50px;
     width: auto;
     float: left;
-    margin: 12px 5px;}
+    margin: 12px 5px;
+    cursor: pointer;
+}
 
 /*nav mobil*/
 .nav-mobile{
