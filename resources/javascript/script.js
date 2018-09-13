@@ -71,9 +71,39 @@ $('a[href*="#"]')
     
     $('.js--ws-1').waypoint(function(direction){
         $('.js--ws-1').addClass('animated fadeIn');
-    },{offset: '50%'
+    },
+        {offset: '50%'
       }
      );
+     $('.js--ws-2').waypoint(function(direction){
+        $('.js--ws-2').addClass('animated fadeInUp');
+    },
+        {offset: '90%'
+      }
+     );
+    
+    $('.js--ws-3').waypoint(function(direction){
+        $('.js--ws-3').addClass('animated fadeIn');
+    },
+        {offset: '50%'
+      }
+     );
+    $('.js--ws-4').waypoint(function(direction){
+        $('.js--ws-4').addClass('animated pulse');
+    },
+        {offset: '50%'
+      }
+     );
+    
+    
+    
+    $('.js--nav-icon').click(function(){
+        var nav = $('.js--main-nav');
+         
+        
+        nav.slideToggle(200);
+    });
+    
     
     
 

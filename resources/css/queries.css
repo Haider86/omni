@@ -99,6 +99,49 @@
 }
     
     
+    
+/*  Mobile nav icon  */
+    
+    .nav-mobile {display: inline-block;}
+    
+    .main-nav{
+        display: none;
+        float: left;
+        margin-top: 15px;
+        
+        
+    }
+    
+    .main-nav li{
+        display: block;
+        padding: 5px;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;        
+    }
+    
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+    
+        padding: 10px 0;
+        margin-top: 1px;
+    
+} 
+    .sticky .logo{display: none;}
+    .sticky .logo-black{display: block;}
+    
+    .sticky .nav-mobil-icon{color: #555;}
+    .sticky .nav-mobil-icon{margin-top: 2px;}
+    
+}
+    
+    
+    
+    
   /* .contact-form{
         width: 100%;
    
