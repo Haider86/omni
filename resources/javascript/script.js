@@ -106,15 +106,22 @@ $('a[href*="#"]')
     
     
     
-<<<<<<< HEAD
-=======
-    new GMaps({
-  div: '.map',
-  lat: -12.043333,
-  lng: -77.028333
-    });
->>>>>>> hns
 
+   var map= new GMaps({
+      div: '.map',
+      lat: 55.3776911,
+      lng: 13.18,
+      zoom: 16
+        });
+
+   map.addMarker({
+      lat: 55.3776911,
+      lng: 13.1718862,
+      title: 'Lima',
+      infoWindow: {
+        content: '<p>Akka grillen</p>'
+}
+    });
 
 
 

@@ -566,7 +566,7 @@ span{
 /* CONTACT SECTION*/
 /*----------------------------------------------------*/
 .contact-form{
-    width: 60%;
+    width: 90%;
     margin: 0 auto;  
 }
 input[type="text"],
@@ -583,19 +583,37 @@ textarea{
     height: 100px;
     
 }
-<<<<<<< HEAD
-=======
+
+.map-box{
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
 
 .map{
     height: 500px;
-    width: 100%;
+    width: 500px;
+    z-index: 0;
+    position: relative;
+}
+
+
+.form-box{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.81);
+    z-index: 10;
+    height: 500px;
+    padding-top: 5px;
+    
 }
 
 
 
 
 
->>>>>>> hns
 /*------footer--------*/
 footer{
     background-color: rgba(47, 47, 47, 0.78);
@@ -679,10 +697,4 @@ footer{
 .js--ws-3 .animated{
     opacity: 1;
 }
-
-
-
-
-
-
 

@@ -10,6 +10,10 @@
 }
 
 
+.form-box{padding-top: 10px;
+margin-bottom: 15px;}
+
+
 /*small tablet to big tablet: from 767 to 1023*/
 
 @media only screen and (max-width: 1023px){
@@ -49,6 +53,13 @@
         width: 94%;
         margin-left: 2%;
         /*padding-right: 4px;*/
+        
+    }
+    .contact-form{
+        width: 70%;
+        
+    }
+    .form-box{padding-top:15px ;
         
     }
     
@@ -138,6 +149,30 @@
     .sticky .nav-mobil-icon{margin-top: 2px;}
     
 }
+
+.map-box{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.map{
+    height: 500px;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+
+.form-box{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    
+}
+
+
     
     
     
@@ -178,29 +213,10 @@
 
 */
 /*small phone : from 0 to 480px */
-<<<<<<< HEAD
+
 @media only screen and (max-width: 480px){
     
     
     .plan-box span{margin-right: 40%}
-=======
-    @media only screen and (max-width: 480px){
-     
-     
-     /*
->>>>>>> hns
-   
-    .contact-form{
-        width: 100%;
-    } 
-    body{
-        font-size: 70%;
-    }
-    .app-screen{
-        width: 40%;
-        margin-right: 30%;
-        
-        
-  */  
-    
+
 }
