@@ -1,5 +1,5 @@
 
-@media only screen and ( max-width: 1200px){
+@media only screen and (max-width: 1200px){
     
     
     .hero-text-box{
@@ -12,7 +12,7 @@
 
 /*small tablet to big tablet: from 767 to 1023*/
 
-@media only screen and ( max-width: 1023px){
+@media only screen and (max-width: 1023px){
     
    
     html{ font-size: 18px;}
@@ -132,7 +132,10 @@
 
 */
 /*small phone : from 0 to 480px */
-@media only screen and (max-width: 480px){/*
+    @media only screen and (max-width: 480px){
+     
+     
+     /*
    
     .contact-form{
         width: 100%;
@@ -145,12 +148,6 @@
         margin-right: 30%;
         
         
-    
+  */  
     
 }
-*/
-
-
-
-
-

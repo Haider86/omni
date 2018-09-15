@@ -15,6 +15,14 @@ $(document).ready(function () {
     $('h1').click(function(){
         $(this).css('color', 'ff0000');
     });
+    
+    
+    
+    new GMaps({
+  div: '.map',
+  lat: -12.043333,
+  lng: -77.028333
+    });
 
 
 
